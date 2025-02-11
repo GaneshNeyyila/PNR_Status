@@ -58,6 +58,7 @@ header {
     border-bottom-left-radius: 1px;
     border-top-left-radius: 1px;
     background-color: #42A047;
+    color : white;
     margin-bottom: 3.5px;
     display: inline;
 }
