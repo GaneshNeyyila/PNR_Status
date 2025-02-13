@@ -2,82 +2,83 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 4px;
 }
 .header-nav ol {
     display: flex;
-    margin-left: -150px;
-    margin-top: 10px;
+    margin-left: -25%;
+    margin-top: 2.6%;
     font-weight: 600;
 }
 .header-nav ol li {
     list-style: none;
-    margin-right: 15px;
+    margin-right: 4%;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 95%;
+    font-weight: 550;
+    color: #3a3535;
 }
 .header-nav span {
     font-size: 13px;
 }
 .header-logo img {
-    width: 130px;
-    height: 35px;
-    margin-top: 3px;
+    width: 70.5%;
+    height: 58%;
+    margin-top: 5%;
+    margin-left: 25%;
 }
 .pnr-status {
     background-color: #d3e5cf;
-    height: 270px;
+    height: 40.6vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: -27px;
 }
 .pnr-status h1 {
     font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 18px;
-    margin-left: -90px;
+    font-weight: 550;
+    color: #3a3a3a;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 #pnr-status-ip {
-    padding: 25px;
-    width: 550px;
+    padding: 2%;
+    width: 42.5vw;
     font-size: 25px;
-    border: 1px solid lightgray;
+    border: 1px solid #42A047;
     border-radius: 6px;
     border-bottom-right-radius: 1px;
     border-top-right-radius: 1px;
-    margin-left: -100px;
 }
 .pnr-status-button {
-    padding: 24.6px;
-    width: 250px;
+    padding: 2%;
+    width: 21vw;
+    color: #fff;
     font-size: 25px;
-    border: 1px solid gray;
+    border: 1px solid #5aaa5e;
     border-radius: 6px;
-    margin-top: -8px;
-    margin-left: -8px;
+    margin-left: -0.8%;
     border-bottom-left-radius: 1px;
     border-top-left-radius: 1px;
     background-color: #42A047;
-    color: #fff;
-    margin-bottom: 3.5px;
     display: inline;
 }
 .platform-heading {
     font-size: 26px;
     font-weight: 630;
-    margin-top: 55px;
+    margin-top: 6.4%;
 }
 .platform {
     margin-left: 19%;
     margin-right: 18%;
 }
 .platform-details {
-    margin-top: 30px;
+    margin-top: 3%;
 }
 .platform-row {
     display: grid;
     grid-template-columns: 6fr 6fr;
-    margin-bottom: 15px;
+    margin-bottom: 1.5%;
 }
 .platform-row-col {
     display: grid;
@@ -90,7 +91,6 @@ header {
 .platform-details h2 {
     font-size: 18px;
     font-family: 'Roboto', 'Open Sans', sans-serif;
-
 }
 .platform-details p span {
     font-size: 14px;
@@ -99,124 +99,226 @@ header {
 }
 .mobile-view {
     background-color: #d3e5cf;
-    height: 275px;
+    height: 38vh;
     display: flex;
-    margin-top: 120px;
+    margin-top: 8%;
 }
 .mobile-view-bg {
-    width: 620px;
-    height: 200px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    width: 42vw;
+    height: 30vh;
+    margin-top: 4%;
+    margin-bottom: 5%;
 }
 .mobile {
     margin-left: 22%;
-    height: 460px;
-    width: 235px;
-    margin-top: -90px;
-    margin-right: 20px;
+    height: 66vh;
+    width: 16vw;
+    margin-top: -6%;
+    margin-right: 2%;
 }
 .mobile-view div {
     display: flex;
     flex-direction: column;
 }
 .mobile-os {
-    margin-left: 150px;
-    margin-top: 6px;
+    margin-left: 20%;
+    margin-top: 3%;
 }
 .mobile-os img {
-    width: 160px;
-    height: 52px;
-    margin-right: 10px;
+    width: 32%;
+    height: 8vh;
+    margin-right: 2.5%;
 }
 .faqs {
-    margin-top: 400px;
+    margin-top: 25%;
     margin-left: 19%;
     margin-right: 18%;
 }
 .faq {
-    border-bottom:1px solid lightgray;
-    margin-bottom: 25px;
-    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
-.faq h3{
+.faq h3 {
     font-size: 23px;
     font-weight: 550;
-    color: #292626;
+    color: #444141;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-.faq p{
+.faq p {
     color: #5C5C5C;
     font-size: 14px;
 }
-.faq p span{
+.faq p span {
     display: block;
     color: #333333;
 }
-footer {
-    margin-top: 100px;
-    background-color: #F0F7F0;
-    padding-top: 10px;
+.faq-a-link{
+    text-decoration: none;
+    color: #42A047;
 }
-.footer-confirm{
+.ixigo{
+    display: flex;
+    background-color: #D8ECD8 ;
+    padding: 1%;
+    border-radius: 10PX;
+    margin-bottom: 4%;
+}
+.ixigo div {
+    display: flex;
+}
+.ixigo img{
+    width: 8vw;
+    height: 8vh;
+}
+.ixigo p{
+    margin-top: 3%;
+}
+.faq-btn {
+    background-color: #54a958;
+    border: none;
+    border-radius: 10px;
+    width: 17%;
+    height: 5.8vh;
+    margin-left: 28%;
+    margin-top: 1%;
+    color: white;    
+}
+.route {
+    margin-left: 19%;
+    margin-right: 19%;
+}
+.route h3 {
+    font-size: 23px;
+    font-weight: 550;
+    color: #444141;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    margin-bottom: 3%;
+}
+.route-row {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-bottom: 4%;
+}.route-col {
     display: grid;
     grid-template-columns: 2fr 10fr;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    margin-left: 11%;
-    margin-right: 11%;
 }
-.footer-confirm-details{
+.route-col img {
+    width: 2.6vw;
+}
+.route-col h6 {
+    font-size: 16px;
+    margin-bottom: -0.09%;
+    color: #5C5C5C;
+}
+#route-via {
+    color: gray;
+    display: inline-block;
+    font-size: 11px;
+}
+.route-col div span {
+    font-size: 12px;
+    color: #42A047;
+}
+.explore {
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 2%;
+}
+.explore h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.explore-row {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 1%; 
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 18px;   
+}
+.explore-row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-right: 1px solid rgb(180, 174, 174);
+    margin-right: -4.4%;
+}
+.explore-row div span{
+    display: block;
+} 
+.explore img{
+    width: 7vw;
+    height: 7vh;
+}
+.explore-row img~a{
+    color: #302d2d;
+    text-decoration: none;
+    font-weight: 500;
+}
+footer {
+    background-color: #F0F7F0;
+    padding-top: 1%;
+}
+.footer-confirm {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer-confirm-details {
     display: grid;
     grid-template-columns: 1.5fr 1.9fr 1.9fr 1.4fr 1.9fr 1.6fr 1.8fr;
-    grid-gap: 1px;
-    margin-left: 50px;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    grid-gap: 2px;
+    margin-left: 5%;
+    padding: 0.5%;
+    margin-bottom: 6%;
 }
-.footer-confirm-title img{
-    width: 130px;
-    height: 32px;
-    margin-bottom: 18px;  
-    margin-top: 4PX; 
-    padding-left: 10px;   
-    padding-right: 10px;     
+.footer-confirm-title img {
+    width: 80w;
+    height: 4vh;
+    margin-bottom: 10%;
+    margin-top: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
-.footer-confirm-title p{
+.footer-confirm-title p {
     display: block;
     color: #44464f;
     font-size: 14px;
-    padding-left: 10px;   
-    padding-right: 10px;    
-    margin-bottom: -20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: -2%;
 }
-.footer-confirm-details div{
-    margin-left: 2px;
+.footer-confirm-details div {
+    margin-left: 2%;
 }
-.footer-confirm-details h5{
+.footer-confirm-details h5 {
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 10%;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-.footer-confirm-details div span{
+.footer-confirm-details div span {
     display: block;
     font-size: 14PX;
     color: #44464f;
-    margin-bottom: 3px;
+    margin-bottom: 2%;
 }
-.footer-social img{
-    margin-right: 10px;
+.footer-social img {
+    margin-right: 8%;
 }
 .footer-hr {
     width: 80%;
     margin-left: 10%;
     color: gray;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 .footer-copyRight {
     text-align: center;
     color: #3d3f48;
-    padding-bottom: 35px;
+    padding-bottom: 2%;
 }
